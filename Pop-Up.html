@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+<script>
+function popup() {
+	alert("Pause.")
+}
+function timed() {
+	setTimeout(popup,1000);
+}
+</script>
+</head>
+<body>
+<button onClick="timed()">Here</button>
+</body>
+</html>
